@@ -1,6 +1,6 @@
 # 회문1
 
-for test in range(1, 11):
+for test in range(10):
     N = int(input())
     arr = [input() for i in range(8)]   
     count = 0

@@ -10,6 +10,6 @@ for case in range(test):
     for i in data:
         if i not in collection:
             answer += i
-    print(f'#{case} {answer}')
+    print(f'#{case + 1} {answer}')
 
         
