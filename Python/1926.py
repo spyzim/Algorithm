@@ -10,6 +10,6 @@ for i in range(N):
     numbers[i] = int(numbers[i])
     if count == 0:
         print(numbers[i], end = ' ')
-    elif count >= 0:
+    elif count > 0:
         print('-'*count, end = ' ')
 
