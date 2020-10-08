@@ -11,7 +11,7 @@ for test_case in range(10):
                 code.insert(j+int(incoding[i+1]), int(incoding[i+3+j]))
         if incoding[i] == 'D':
             for j in range(int(incoding[i+2])):
-                del code[int(incoding[i+1])+j]
+                del code[int(incoding[i+1])+j-1]
 
     list_new = code[:10]
     print(f'#{test_case+1}', end = ' ')
